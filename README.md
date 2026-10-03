@@ -1,25 +1,73 @@
-# Aditya Kumar Jha — Portfolio
+# 🌐 Personal Portfolio Website
 
-A React single-page portfolio built with Vite.
+A modern and responsive personal portfolio website built using **React.js** to showcase my skills, projects, achievements, and development journey.
 
-## Run locally
+## 🚀 Features
 
-```sh
+* 👨‍💻 About Me section
+* 🛠️ Technical Skills
+* 📂 Projects showcase
+* 📱 Fully responsive design
+* 📧 Contact section
+* 🎨 Clean and modern UI
+* ⚡ Fast and smooth user experience
+
+## 🛠️ Technologies Used
+
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+* Git & GitHub
+
+## 📂 Project Structure
+
+```text
+portfolio/
+├── public/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── README.md
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+Navigate to the project folder:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
+
+Run the development server:
+
+```bash
 npm run dev
 ```
 
-## Production build
+Open the local URL shown in your terminal to view the website.
 
-```sh
-npm run build
-npm run preview
-```
+## 🎯 Purpose
 
-The production files are generated in `dist/`.
+The purpose of this portfolio is to showcase my development skills, projects, and experience to recruiters, companies, and other developers.
 
-## Deploy to Vercel
+## 👨‍💻 Author
 
-When importing this repository into Vercel, set the **Root Directory** to `portfolio` (the folder containing this README and `package.json`). The included `vercel.json` configures Vercel to run `npm ci`, build with `npm run build`, and publish `dist`. It also rewrites application routes to the SPA entry point so direct visits and refreshes on routes such as `/projects` work.
+**Aditya Kumar Jha**
 
-Vite requires Node.js `^20.19.0` or `>=22.12.0`; the supported range is declared in `package.json`.
+Feel free to explore the project and connect with me!
